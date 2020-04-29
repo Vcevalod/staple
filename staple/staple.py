@@ -46,7 +46,7 @@ class STAPLE:
         self.max_num_iterations = max_num_iterations
         self.verbose = verbose
         if convergence_threshold is None:
-            convergence_threshold = 1e-2
+            convergence_threshold = 1
         self.convergence_threshold = convergence_threshold
         self._init()
 
